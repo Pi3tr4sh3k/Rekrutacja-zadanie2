@@ -1,8 +1,8 @@
 # Rekrutacja-zadanie2
-<p>Celem zadania jest wyznaczenie drogi robota przy minimalnym zużyciu energii na danych odcinkach drogi. Każdy typ drogi (zielony, żółty i czerwony) swój koszt przejechania na każdy 1m pokonanej trasy. Do celów diagnostycznych koszt czerwonej trasy = 3, żółtej = 2, zielonej = 1. Program wykorzystuje algorytm Dijksty do odnajdywania najkrótszej trasy</p>
+<p>Celem zadania jest wyznaczenie drogi robota przy minimalnym zużyciu energii na danych odcinkach. Każdy typ drogi (zielony, żółty i czerwony) swój koszt przejechania na każdy 1m pokonanej trasy. Do celów diagnostycznych koszt czerwonej ścieżki = 3, żółtej = 2, zielonej = 1. Program wykorzystuje algorytm Dijksty do odnajdywania najkrótszej trasy.</p>
 <ol>
    <h2><li>Rozrysowanie grafu</h2>
-  <p>Pierwszym krokiem było rozpisanie grafu dla danej trasy. Graf prezentuje się następująco:</p>
+  <p>Pierwszym krokiem było rozpisanie grafu dla wszystkich tras. Graf prezentuje się następująco:</p>
    <p><img src=graph1.png/></p></li>
    <h2><li>Implementacja macierzy</h2>
       <p>Kolejnym krokiem było utworzenie macierzy i implementacja w kodzie. Macierz będzie przekazywana jako argument do funkcji w którym będzie szukana nakrótsza trasa.                Natomiast zanim to nastąpi należy pobrac od użytkownika informacje o kosztach przejazdu po poszczególnych typach tras. W tym celu została wprowadzona nieskończona pętla          z warunkiem przerwania w momencie kiedy wszystkie trzy zmienne są większe od zera. Pobrane wartości razem z oryginalną macierzą trafiają do funkcji pathWeight,                  która wymnaża poszczególne elementy macierzy przez koszta przejazdu na odpowiadających im typach trasy. Funkcja zwraca poprawioną macierz, której reprezentacja w formie          graf znajduje się poniżej:</p>
