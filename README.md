@@ -9,7 +9,10 @@
    <p><img src=graph2.png/></p></li>
    <h2><li>Algorytm Djikstry</h2>
       <ul>
-         <li>Zostaje zainicjowana 
+         <li>Zostaje zainicjowana tablica sptSet w której będą przechowywane informacje o wierzchołkach które należą do najkrótszej ścieżki</li>
+         <li>Następuje inicjacja tablicy dist w której będą przechowywane informacje o najkrótszych odległościach od pkt startowego do poszczególnych wierzchołków. Naszym celem                jest wyznaczenie najkrótszej trasy pomiędzy wierzchołkiem 0 - 4</li>
+         <li>Wartości tablicy dist są ustawiane początkowo na INT_MAX (jedynie wierzchołek z którego zaczynamy przyjmuje wartość 0. Wartości tablicy sptSet również są ustawione na              0.</li>
+         <li>
    
 </ol>
    
