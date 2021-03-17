@@ -11,7 +11,7 @@
       <ul>
          <li>Zostaje zainicjowana tablica sptSet w której będą przechowywane informacje o wierzchołkach które należą do najkrótszej ścieżki</li>
          <li>Następuje inicjacja tablicy dist w której będą przechowywane informacje o najkrótszych odległościach od pkt startowego do poszczególnych wierzchołków. Naszym celem                jest wyznaczenie najkrótszej trasy pomiędzy wierzchołkiem 0 - 4</li>
-         <li>Wartości tablicy dist są ustawiane początkowo na INT_MAX (jedynie wierzchołek z którego zaczynamy przyjmuje wartość 0. Wartości tablicy sptSet również są ustawione na              0.</li>
+         <li>Wartości tablicy dist są ustawiane początkowo na INT_MAX (jedynie wierzchołek z którego zaczynamy przyjmuje wartość 0. Wartości tablicy sptSet również są ustawione                na 0.</li>
          <li>Algorytm wybiera następne wierzchołki i decyduje, która ścieżka jest krótsza. Od tego jest funkcja minDistance. Wartość jest zwracana jako min_index</li>
          <li>Następnie w pętli w funkcji djikstra jest liczona najmniejsza odległość pomiędzy punktami od punktu wyściowego</li>
          <li>Jako ostatni krok jest zwracana wartość dist[4] - czyli najmniejsza odległość od naszego docelowego wierzchołka (B)</li>
