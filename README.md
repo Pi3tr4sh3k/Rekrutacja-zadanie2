@@ -16,8 +16,9 @@
          <li>Następnie w pętli w funkcji djikstra jest liczona najmniejsza odległość pomiędzy punktami od punktu wyściowego</li>
          <li>Jako ostatni krok jest zwracana wartość dist[4] - czyli najmniejsza odległość od naszego docelowego wierzchołka (B)</li>
       </ul>
-    <h2>Sprawdzenie poprawności wykonania algorytmu</h2>
+    <li><h2>Sprawdzenie poprawności wykonania algorytmu</h2>
       <p>Dla danych r=3, y=2, g=1 program powinien zwracać wartość 33,5. Dla porównania ustawiłem wagi poszczególnych tras na grafie i rzeczywiście najmniejsza odległość pomiędzy wierzchołkiem 0-4 (A - B) wynosi 33,5
+   <p><img src=spr.jpg/></p></li>
 </ol>
    
    
