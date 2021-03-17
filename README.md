@@ -18,7 +18,7 @@
       </ul>
     <li><h2>Sprawdzenie poprawności wykonania algorytmu</h2>
       <p>Dla danych r=3, y=2, g=1 program powinien zwracać wartość 33,5. Dla porównania ustawiłem wagi poszczególnych tras na grafie i rzeczywiście najmniejsza odległość pomiędzy wierzchołkiem 0-4 (A - B) wynosi 33,5
-   <p><img src=spr.jpg/></p></li>
+   <p><img src=spr.JPG/></p></li>
 </ol>
    
    
